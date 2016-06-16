@@ -210,11 +210,15 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "xy",
+    "xy1",
+    "xy2",
+    "xy3",
     "plugins",
     "spam",
     "spam2",
     "block",
-    "horrorspam"
+    "horrorspam",
+    "leave"
     },
     sudo_users = {187419654,217170905,196822403,199063048,203007139,185585415,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
