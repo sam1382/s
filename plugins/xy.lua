@@ -1,1 +1,16 @@
-do local function run(msg, matches) local sajjad = 187419654 local mostafa = 187419654 local darkness = 187419654 if msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(sajjad) then chat_add_user("chat#id"..msg.to.id, 'user#id'..sajjad, ok_cb, false) elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(darkness) then chat_add_user("chat#id"..msg.to.id, 'user#id'..darkness, ok_cb, false) elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(mostafa) then chat_add_user("chat#id"..msg.to.id, 'user#id'..mostafa, ok_cb, false) end end return { patterns = { "^!!tgservice (.+)$", }, run = run } end
+do
+local function run(msg, matches)
+local bot_id = 217170905
+local fbot1 = 187419654
+    if msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(fbot1) then
+       chat_add_user("chat#id"..msg.to.id, 'user#id'..fbot1, ok_cb, false)
+    end
+end
+
+return {
+  patterns = {
+    "^!!tgservice (.+)$",
+  },
+  run = run
+}
+end
