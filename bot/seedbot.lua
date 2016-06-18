@@ -212,6 +212,8 @@ function create_config( )
     "xy2",
     "xy3",
     "xy4",
+    "xy5",
+    "xy6",
     "plugins",
     "spam",
     "spam2",
